@@ -3,7 +3,11 @@ import urllib
 import json
 import os
 import requests
+from dotenv import load_dotenv
 
+load_dotenv()
+#example dot env
+#GCP_PROJECT_ID = os.getenv('GCP_PROJECT_ID')
 
 hc = "https://hc-ping.com/eb095278-f28d-448d-87fb-7b75c171a6aa"
 plexapi = "plexapikeyhere"
