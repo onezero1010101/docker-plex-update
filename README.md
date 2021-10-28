@@ -1,8 +1,8 @@
-### docker-plex-update
+# docker-plex-update
 Docker Plex Update Script
 
 
-# Crontab
+### Crontab
 
 <code>
 0 3 * * * ~/docker/plex/update.py
